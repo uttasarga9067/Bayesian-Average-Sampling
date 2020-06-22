@@ -50,9 +50,9 @@ The next plot explains the important variables for data and prediction and margi
 ## 2. Predicting Area of a State
 
 I have predicted the area of state New York, using the State index, Zip and the State Initials giving as an Input to the Model.
-> NY <- data.frame(zip = 12180, loc_st_prov_cd = "NY" ,state_idx = 33)
-> new1 <- predict(databas,NY, estimator="BMA", interval = "predict", se.fit=TRUE)
-> data.frame('State' = 'New York', 'Estimated Area' = new1$Ybma, 'Real Area' = 15840)
+##### > NY <- data.frame(zip = 12180, loc_st_prov_cd = "NY" ,state_idx = 33)
+##### > new1 <- predict(databas,NY, estimator="BMA", interval = "predict", se.fit=TRUE)
+##### > data.frame('State' = 'New York', 'Estimated Area' = new1$Ybma, 'Real Area' = 15840)
 
 The Area predicted by the Model:
 
